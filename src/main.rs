@@ -14,7 +14,8 @@
 // mod cli;
 // mod generics;
 // mod traits_challenge;
-mod get_first_name;
+// mod get_first_name;
+mod generic_lifetime;
 
 fn main() {
     // print::run();
@@ -33,5 +34,6 @@ fn main() {
     // cli::run();
     // generics::run();
     // traits_challenge::run();
-    get_first_name::run();
+    // get_first_name::run();
+    generic_lifetime::run();
 }
