@@ -11,7 +11,10 @@
 // mod pointers;
 // mod structs;
 // mod enums;
-mod cli;
+// mod cli;
+// mod generics;
+// mod traits_challenge;
+mod get_first_name;
 
 fn main() {
     // print::run();
@@ -27,5 +30,8 @@ fn main() {
     // pointers::run();
     // structs::run();
     // enums::run();
-    cli::run();
+    // cli::run();
+    // generics::run();
+    // traits_challenge::run();
+    get_first_name::run();
 }
